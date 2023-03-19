@@ -6,10 +6,10 @@
  */
 int main (void)
 {
-	int charType;
+	char charType;
 	int intType;
-	int longintType;
-	int longlongType;
+	long int longintType;
+	long int longlongType;
 
 	printf("Size of chat: zu% byte(s)\n", sizeof(charType));
 	printf("Size of int: zu% byte(s)\n", sizeof(inType));
