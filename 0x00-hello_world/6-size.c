@@ -6,14 +6,14 @@
  */
 int main (void)
 {
-	char charType;
-	int intType;
-	long int longintType;
-	long int longlongType;
+	char X;
+	int Y;
+	long int W;
+	long int Z;
 
-	printf("Size of chat: zu% byte(s)\n", (unsigned long)sizeof(charType));
-	printf("Size of int: zu% byte(s)\n", (unsigned long)sizeof(inType));
-	printf("Size of long int: zu% byte(s)\n", (unsigned long)sizeof(longintType));
-	printf("Size of long long: zu% byte(s)\n", (unsigned long)sizeof(longlongtypr));
+	printf("Size of char: zu% byte(s)\n", (unsigned long)sizeof(X));
+	printf("Size of int: zu% byte(s)\n", (unsigned long)sizeof(Y));
+	printf("Size of long int: zu% byte(s)\n", (unsigned long)sizeof(W));
+	printf("Size of long long: zu% byte(s)\n", (unsigned long)sizeof(Z));
 	return (0);
 }
