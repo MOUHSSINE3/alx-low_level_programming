@@ -9,11 +9,11 @@ int main(void)
 	char X;
 	int Y;
 	long int W;
-	long int Z;
+	long long  int Z;
 
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(X));
-	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(Y));
-	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(W));
-	printf("Size of a long long: %lu byte(s)\n", (unsigned long)sizeof(Z));
+	printf("Size of a char: zu% byte(s)\n", (unsigned long)sizeof(X));
+	printf("Size of an int: zu% byte(s)\n", (unsigned long)sizeof(Y));
+	printf("Size of a long int: zu% byte(s)\n", (unsigned long)sizeof(W));
+	printf("Size of a long long int: zu% byte(s)\n", (unsigned long)sizeof(Z));
 	return (0);
 }
