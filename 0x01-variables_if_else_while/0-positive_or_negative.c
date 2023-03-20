@@ -17,7 +17,6 @@ int main(void)
 	}
 	else if (n == 0)
 		print("%d is zero", n);
-	return (0);
 	/* your code goes there */
-    return (0);
+	return (0);
 }
