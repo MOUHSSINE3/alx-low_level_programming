@@ -23,6 +23,6 @@ int (*get_op_func(char *s))(int, int)
 	while (m[n].op != NULL && *(m[n].op) != *s)
 		n++;
 
-	return (ops[n].f);
+	return (m[n].f);
 }
 
