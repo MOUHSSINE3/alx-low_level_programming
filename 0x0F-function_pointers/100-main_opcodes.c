@@ -33,10 +33,10 @@ int main(int argc, char *argv[])
 	{
 		if (n == b - 1)
 		{
-			printf("%02hhx\n", a[i]);
+			printf("%02hhx\n", a[n]);
 			break;
 		}
-		printf("%02hhx ", a[i]);
+		printf("%02hhx ", a[n]);
 		n++;
 	}
 	return (0);
